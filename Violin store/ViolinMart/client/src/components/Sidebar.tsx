@@ -76,7 +76,7 @@ export default function Sidebar() {
         </Link>
         {hasSubmenu && isExpanded && (
           <div className="mt-1">
-            {item.submenu.map((subItem) => renderMenuItem(subItem, level + 1))}
+            {(item.submenu ?? []).map((subItem) => renderMenuItem(subItem, level + 1))}
           </div>
         )}
       </div>
