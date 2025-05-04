@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dolce Vita - Your one-stop shop for musical instruments and accessories. Start your musical journey today!">
+  <meta name="keywords" content="violin, musical instruments, bows, cases, strings, accessories">
+  <meta name="author" content="Dolce Vita">
+  <title>Dolce Vita - Start Your Musical Journey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="Dolce Logo.png" alt="Dolce Vita Logo">
+      <span>Dolce Vita</span>
+    </div>
+    <div class="search-cart">
+      <form id="search-form" action="/search" method="GET">
+        <input type="text" name="query" placeholder="Search" required>
+        <button type="submit">Search</button>
+      </form>
+      <div class="cart">
+        <a href="cart.html">
+          <img src="cart-icon-placeholder.png" alt="Cart" height="24">
+          <span id="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sidebar Navigation -->
+  <div class="sidebar">
+    <nav>
+      <ul>
+        <li><a href="Violinstore.html">Home</a></li>
+        <li><a href="instruments.html">Instruments</a></li>
+        <li><a href="bows.html">Bows</a></li>
+        <li><a href="cases.html">Cases</a></li>
+        <li><a href="strings.html">Strings</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="image.jpg" alt="Musical Instruments Background">
+      <div class="hero-text">
+        <h1>Start Your Musical Journey</h1>
+        <p>With Dolce Vita</p>
+        <a href="instruments.html" class="cta-button">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="products">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="violin.jpg" alt="Violin">
+          <h3>Violin</h3>
+          <p>$500</p>
+          <button onclick="addToCart({ id: 1, name: 'Violin', price: 500 })">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="bow.jpg" alt="Bow">
+          <h3>Bow</h3>
+          <p>$100</p>
+          <button onclick="addToCart({ id: 2, name: 'Bow', price: 100 })">Add to Cart</button>
+        </div>
+        <!-- Add more products here -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Dolce Vita. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
