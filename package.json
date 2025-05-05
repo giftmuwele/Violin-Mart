@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-accordion": "^1.2.8",
     "@radix-ui/react-alert-dialog": "^1.1.11",
     "@radix-ui/react-aspect-ratio": "^1.1.4",
@@ -24,13 +25,17 @@
     "@radix-ui/react-tooltip": "^1.2.4",
     "cmdk": "^1.1.1",
     "embla-carousel-react": "^8.6.0",
+    "express-session": "^1.18.1",
     "input-otp": "^1.4.2",
+    "memorystore": "^1.6.7",
+    "openai": "^4.97.0",
     "react-day-picker": "^9.6.7",
     "react-hook-form": "^7.56.2",
     "react-resizable-panels": "^3.0.1",
     "react-responsive": "^10.0.1",
     "recharts": "^2.15.3",
-    "vaul": "^1.1.2"
+    "vaul": "^1.1.2",
+    "ws": "^8.18.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
