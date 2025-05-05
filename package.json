@@ -24,6 +24,7 @@
     "@radix-ui/react-toast": "^1.2.11",
     "@radix-ui/react-tooltip": "^1.2.4",
     "cmdk": "^1.1.1",
+    "drizzle-kit": "^0.31.1",
     "embla-carousel-react": "^8.6.0",
     "express-session": "^1.18.1",
     "input-otp": "^1.4.2",
