@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useLocation } from "wouter";
 import ProductCard from "../components/ProductCard";
 import { Skeleton } from "../components/ui/skeleton";
-import type { Product } from "@shared/schema";
+import type { Product } from "../../../shared/schema";
 import React from "react";
 
 export default function Products() {

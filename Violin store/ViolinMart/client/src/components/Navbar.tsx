@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Music2 } from "lucide-react";
 import { Button } from "../components/ui/button";
 import SearchBar from "./SearchBar";
-import type { CartItem } from "@shared/schema";
+import type { CartItem } from "../../../shared/schema";
 import React from "react";
 export default function Navbar() {
   const { data: cartItems } = useQuery<CartItem[]>({ 

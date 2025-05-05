@@ -4,7 +4,7 @@ import { Button } from "../components/ui/button";
 import { Input } from "../components/ui/input";
 import { Trash2 } from "lucide-react";
 import { useToast } from "../hooks/use-toast";
-import type { CartItem as CartItemType, Product } from "@shared/schema";
+import type { CartItem as CartItemType, Product } from "../../../shared/schema";
 import React from "react";
 interface CartItemProps {
   item: CartItemType;

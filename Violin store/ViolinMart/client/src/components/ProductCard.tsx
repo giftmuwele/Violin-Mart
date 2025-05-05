@@ -5,7 +5,7 @@ import { Button } from "../components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../components/ui/card";
 import { useToast } from "../hooks/use-toast";
 import AudioPreview from "./AudioPreview";
-import type { Product } from "@shared/schema";
+import type { Product } from "../../../shared/schema";
 import React from "react";
 interface ProductCardProps {
   product: Product;

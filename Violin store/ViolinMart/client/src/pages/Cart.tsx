@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Button } from "../components/ui/button";
 import { Separator } from "../components/ui/separator";
 import CartItem from "../components/CartItem";
-import type { CartItem as CartItemType, Product } from "shared/schema";
+import type { CartItem as CartItemType, Product } from "../../../shared/schema";
 import React from "react";
 
 export default function Cart() {

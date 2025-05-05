@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertProductSchema, insertCartItemSchema } from "@shared/schema";
+import { insertProductSchema, insertCartItemSchema } from "../shared/schema";
 import session from "express-session";
 import MemoryStore from "memorystore";
 

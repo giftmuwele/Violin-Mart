@@ -22,7 +22,7 @@ import {
   FormLabel,
   FormMessage,
 } from "../components/ui/form";
-import type { CartItem, Product } from "@shared/schema";
+import type { CartItem, Product } from "../../../shared/schema";
 
 const checkoutSchema = z.object({
   firstName: z.string().min(1, "First name is required"),
