@@ -3,7 +3,11 @@ import { Slot } from "@radix-ui/react-slot"
 import { VariantProps, cva } from "class-variance-authority"
 import { PanelLeft } from "lucide-react"
 
-import { useIsMobile } from "radix-ui/react-sliderse-mobile"
+import { useMediaQuery } from "react-responsive"
+
+function useIsMobile() {
+  return useMediaQuery({ query: "(max-width: 768px)" })
+}
 import { cn } from '../../lib/utils';
 import { Button } from "../ui/button"
 import { Input } from "../ui/input"

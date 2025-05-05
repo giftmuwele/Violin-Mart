@@ -28,6 +28,7 @@
     "react-day-picker": "^9.6.7",
     "react-hook-form": "^7.56.2",
     "react-resizable-panels": "^3.0.1",
+    "react-responsive": "^10.0.1",
     "recharts": "^2.15.3",
     "vaul": "^1.1.2"
   },
